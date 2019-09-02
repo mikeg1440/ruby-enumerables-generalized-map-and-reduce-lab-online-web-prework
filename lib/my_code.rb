@@ -20,7 +20,7 @@ def test(string)
   yield(string)
 end
 
-x = map([1,2,3,4,5]){|n| n * -1}
+#x = map([1,2,3,4,5]){|n| n * -1}
 
-puts x
+
 #test("MySTring"){|s| puts s}
