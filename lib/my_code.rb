@@ -10,4 +10,4 @@ def map(array)
 end
 
 
-map([1,2,3,4,5])
+map([1,2,3,4,5]) {|n| -n}
