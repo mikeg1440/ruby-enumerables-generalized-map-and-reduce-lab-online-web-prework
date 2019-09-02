@@ -16,4 +16,10 @@ def map(array)
 end
 
 
-map([1,2,3,4,5]){|n| n * -1}
+def test(string)
+  yield
+end
+
+#map([1,2,3,4,5]){|n| n * -1}
+
+test("MySTring"){|s| puts s}
