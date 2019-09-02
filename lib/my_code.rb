@@ -1,12 +1,15 @@
 
 def map(array)
   
+  new_array = []
+  
   array.each do |element|
   
-    yield
+    new_array.push(yield)
     
   end
   
+  new_array
 end
 
 
