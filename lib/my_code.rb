@@ -8,3 +8,6 @@ def map(array)
   end
   
 end
+
+
+map([1,2,3,4,5])
