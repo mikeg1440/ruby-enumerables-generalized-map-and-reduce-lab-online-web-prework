@@ -1,3 +1,5 @@
+require "pry"
+
 
 def map(array)
   
