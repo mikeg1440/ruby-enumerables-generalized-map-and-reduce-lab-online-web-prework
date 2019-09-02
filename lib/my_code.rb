@@ -25,17 +25,13 @@ def reduce(source_array, starting_point=0)
     if !source_array[x]
       return false
     else
-      if !source_array.is_a? Integer
-        binding.pry
-        next
+      if source_array.is_a? Integer
+        total += source_array[x]
+        x = x + 1
+        
       end
     end
-    
-    #binding.pry
-    total += source_array[x]
-    
-    x = x + 1
-    
+  
   end
   
   yield(total, starting_point)
