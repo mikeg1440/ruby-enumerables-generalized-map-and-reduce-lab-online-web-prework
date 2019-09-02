@@ -1,5 +1,5 @@
 #require "pry"
-
+require "pry"
 
 def map(array)
   
@@ -21,6 +21,7 @@ def reduce(source_array, starting_point=0)
   
   while x < source_array.size 
     
+    binding.pry
     total += source_array[x]
     
     x = x + 1
