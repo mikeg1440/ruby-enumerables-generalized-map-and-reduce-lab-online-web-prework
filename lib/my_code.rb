@@ -15,9 +15,17 @@ def map(array)
   new_array
 end
 
-
-def test(string)
-  yield(string)
+def reduce(source_array)
+  
+  new_array = []
+  
+  source_array.each do |element|
+    
+    new_array = yield(element)
+    
+  end
+  
+  new_array
 end
 
 #x = map([1,2,3,4,5]){|n| n * -1}
