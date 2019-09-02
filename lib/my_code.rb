@@ -34,6 +34,6 @@ end
 
 #x = map([1,2,3,4,5]){|n| n * -1}
 
-puts reduce([1,2,3], 100){|n,m| n + m}
+#puts reduce([1,2,3], 100){|n,m| n + m}
 
 #test("MySTring"){|s| puts s}
