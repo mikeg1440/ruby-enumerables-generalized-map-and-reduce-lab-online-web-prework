@@ -26,6 +26,7 @@ def reduce(source_array, starting_point=0)
       return false
     else
       if !source_array.is_a? Integer
+        binding.pry
         next
       end
     end
