@@ -8,7 +8,7 @@ def map(array)
   
   array.each do |element|
     binding.pry
-    new_array.push(yield)
+    new_array.push(yield(element))
     binding.pry
   end
   
