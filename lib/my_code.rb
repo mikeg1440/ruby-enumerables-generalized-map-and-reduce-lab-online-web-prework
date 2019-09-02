@@ -22,6 +22,9 @@ def reduce(source_array, starting_point=0)
   
   while x < source_array.size 
     
+    if !source_array[x]
+      return false
+    
     #binding.pry
     total += source_array[x]
     
