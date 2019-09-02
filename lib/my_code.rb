@@ -25,7 +25,7 @@ def reduce(source_array, starting_point=0)
     
   end
   
-  new_array
+  total
 end
 
 #x = map([1,2,3,4,5]){|n| n * -1}
