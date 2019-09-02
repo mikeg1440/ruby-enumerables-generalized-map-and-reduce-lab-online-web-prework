@@ -5,8 +5,9 @@ def map(array)
   
   new_array = []
   
-  array.each do |element|
   
+  array.each do |element|
+    binding.pry
     new_array.push(yield)
     
   end
