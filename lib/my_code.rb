@@ -23,7 +23,7 @@ def reduce(source_array, starting_point=0)
     
     total += source_array[x]
     
-    x++
+    x += 1
     
   end
   
